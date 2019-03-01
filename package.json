@@ -6,8 +6,13 @@
   "scripts": {
     "test": "tape tests/*.js | tap-spec"
   },
-  "author": "",
+  "author": "Sam Minnee <sam.minnee@gmail.com>",
   "license": "BSD-3-Clause",
+  "homepage": "https://github.com/sminnee/double-trouble",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sminnee/double-trouble.git"
+  },
   "devDependencies": {
     "tap-spec": "^4.1.1",
     "tape": "^4.6.0"
