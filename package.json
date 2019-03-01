@@ -1,0 +1,18 @@
+{
+  "name": "doubletrouble",
+  "version": "0.0.1",
+  "description": "Simple double-entry bookkeeping system written in JavaScript. Not recommended for use by anyone.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*.js | tap-spec"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
