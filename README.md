@@ -3,6 +3,13 @@ Double Trouble
 
 Simple double-entry bookkeeping system written in JavaScript. Not recommended for use by anyone.
 
+Installation
+------------
+
+```
+npm install --save double-trouble
+```
+
 
 Usage
 -----
@@ -20,16 +27,16 @@ ledger = DT.createLedger({
 ledger.journal(
 	'Invoice Created',
 	[
-	  { 'account' => '200', 'amount' => 200 },
-	  { 'account' => '700', 'amount' => -200 }
+	  { 'account': '200', 'amount': 200 },
+	  { 'account': '700', 'amount': -200 }
 	]
 );
 
 ledger.journal(
 	'Invoice Paid',
 	[
-	  { 'account' => '700', 'amount' => 200 },
-	  { 'account' => '800', 'amount' => -200 }
+	  { 'account': '700', 'amount': 200 },
+	  { 'account': '800', 'amount': -200 }
 	]
 );
 

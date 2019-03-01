@@ -1,5 +1,5 @@
 {
-  "name": "doubletrouble",
+  "name": "double-trouble",
   "version": "0.0.1",
   "description": "Simple double-entry bookkeeping system written in JavaScript. Not recommended for use by anyone.",
   "main": "index.js",
